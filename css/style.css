@@ -4,20 +4,22 @@
 }
 .board {
     margin:50px 0 0 50px;
-    width:224px;
-    height:224px;
+    width:320px;
+    height:320px;
 }
-.dot {
-    width:25px;
-    height:25px;
+.grid {
+    width:38px;
+    height:38px;
     display:inline-block;
+}
+.grid--white {
     background-color:#eee;
     border:1px solid #ddd;
 }
-.queen {
-    background: url("../img/queen.png") top left no-repeat #eee;
+.grid--black {
+    border:1px solid #000;
+    background-color:#000;
 }
-.killed {
-    background-color: red;
-    border-color: red;
+.grid--queen {
+    background: url("../img/queen.png") center center no-repeat #eee;
 }
